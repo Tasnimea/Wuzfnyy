@@ -1,0 +1,55 @@
+
+*{
+    font-family: 'Indie Flower', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Trispace', sans-serif;
+}
+
+.colora{
+
+    color: #549494;
+    padding-right: 2%;
+}
+.progress-bar{
+    background-color:  rgb(84, 148, 148) !important;
+    color: rgb(84, 148, 148);
+
+}
+
+.download{
+    text-decoration: none !important;
+}
+
+.card{
+    border-color: rgb(173, 170, 170,0.5) !important;
+    border: 1.2px;
+ border-left-style:  solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(230, 238, 238) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;}
+
+
+.ridge{
+    border-left-style:  solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(230, 238, 238) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+
+h2:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255) !important;
+}
